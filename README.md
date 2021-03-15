@@ -4,8 +4,11 @@
 我这里演示从Docker运行telegram-cli容器开始
 
 Docker运行Telegram-cli
+
 docker pull peng4740/telegram-cli
+
 docker run -itd -v ~/telegram-cli/:/home/telegramd/.telegram-cli/ --name=tg --restart=always peng（如果没用请通过该命令查找docker ps -a容器id，使用docker strart 容器id 命令启动容器）
+
 4740/telegram-cli
 
 单账号配置
